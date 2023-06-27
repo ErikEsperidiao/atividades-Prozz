@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #fff;
+}
+.navbar a{
+  list-style: none;
+  text-decoration: none;
+}
+.image-logo{
+  display: flex;
+  align-items: center;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between; 
+  background-color: black;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  width: 100%;
+}
+.navbar-itens{
+  font-size: 20px;
+  display: flex;
+}
+nav a li{
+  margin: 50px;
+  color: blueviolet;
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+main{
+  margin: 50px;
+}
+h3{
+  margin: 50px 0;
+}
+.title-image{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.maps{
+  margin-bottom: 20px;
+}
+
+footer{
+  color: white;
+  background-color: black;
+}
+/*form*/
+#area
+{
+  left:37%;
+  top:10em;
+  width:320px;
+  height:300px;
+  padding: ;
+}
+#area #formulario
+{
+  display:block;
+  
+}
+fieldset
+{
+  background-color:#32dac3;
+  width:300px;
+  height:250px;
+}
+legend
+{
+  font-weight:bold;
+  font-family: "Segoe UI","Arial","Times New Roman";
+}
+#formulario label
+{
+  left:19px;
+  margin-right:5px;
+}
+#formulario input.campo_nome
+{
+  background-color:#ffffff;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.campo_email
+{
+  background-color:#ffffff;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+#formulario textarea.msg
+{
+  background-color:#ffffff;
+}
+
+#formulario input.btn_submit
+{
+  bottom: 0.5em;
+  right:10px;
+  background-color:#ffffff;
+}
+footer{
+  padding: 50px;
+
+}
+ul{
+  display: flex;
+  margin-top: 20px;
+}
+footer li{
+  list-style: none;
+  margin-right:5px;
+}
+
